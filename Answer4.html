@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>1.1.4</title>
+
+    <script>
+
+      function function1()
+
+      {
+
+        var data;
+
+        data = document.getElementById("input1").value;
+
+        document.getElementById("iframe1").src=data;
+
+      }
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <center>
+
+      <div><h1>1st sub-window</h1></div><br><br>
+
+      ENTER URL &nbsp<input type = 'text' id = 'input1'>&nbsp
+
+      <input type = 'button' value = 'go' onclick = 'function1();'><br>
+
+      <h6>Give input as "https://www.wikipedia.org/" not as "wikipedia.org".</h6><br><br>
+
+      <iframe height = '30%' width = '30%' id = 'iframe1'></iframe>
+
+    </center>
+
+  </body>
+
+</html>
